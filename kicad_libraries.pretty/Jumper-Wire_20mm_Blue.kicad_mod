@@ -1,0 +1,160 @@
+(footprint "Jumper-Wire_20mm_Blue"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "jumper wire 20mm blue")
+	(tags "jumper wire 20mm")
+	(property "Reference" "REF**"
+		(at 0.635 -4.445 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3cca063e-e64d-47ed-a842-51703d548735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper-Wire_20mm_Blue"
+		(at 15.875 -5.08 0)
+		(layer "F.Fab")
+		(uuid "8cd54841-e280-4f59-94d2-d21363f27126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4362c557-619c-4826-9325-0877820e53d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56f482ed-4558-4f28-b3fb-1bda252c4b5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85329574-5949-4f0b-9945-c470f3bac6d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 22.606 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6ff46a3-4732-49df-957c-b18e1b7a4cca")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c217250-14c3-47f9-a352-cb709fe40b00")
+	)
+	(fp_line
+		(start 22.606 -2.5)
+		(end 22.606 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f9acca6-8369-4254-a416-0e4f8bad95fa")
+	)
+	(fp_line
+		(start 22.606 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80de1fad-d224-4bce-8da0-987a12aabd71")
+	)
+	(fp_poly
+		(pts
+			(xy 20.167169 0.508) (xy 0.152832 0.508) (xy 0.051663 -0.49031) (xy 20.066 -0.49031)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "24438685-fd1f-4907-ae43-9af2a05a03d6")
+	)
+	(fp_rect
+		(start -3.048 -3.048)
+		(end 23.114 3.048)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e72d8db9-00b2-4a6b-8274-06130a1fec71")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 1.9)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.421)
+		(uuid "2195b1eb-8606-4737-abce-f7014d6abd1a")
+	)
+	(pad "2" thru_hole roundrect
+		(at 20.066 0)
+		(size 3 1.9)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.421)
+		(uuid "61e2bc33-763e-474c-ab92-fe4ec120fe0e")
+	)
+	(model "${KICAD_USER_LIBRARIES}/3d_models/Jumper-Wire_20mm_Blue.step"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
